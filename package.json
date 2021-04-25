@@ -1,16 +1,16 @@
 {
-  "homepage": "https://aokidai.github.io/Rabbit_House_2_RN",
   "name": "FoodDeliveryApp",
   "version": "0.0.1",
+  "homepage": "http://aokidai.github.io/Rabbit_House_2_RN",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
